@@ -1,0 +1,37 @@
+[
+  {
+    "image": "images/result-2.png",
+    "company": "AJIO",
+    "title": "Up to 70% Off",
+    "location": "San Jose, CA",
+    "badge": "NEW"
+  },
+  {
+    "image": "images/result-3.png",
+    "company": "Amazon",
+    "title": "Work Wear Fest",
+    "location": "Santa Clara, CA",
+    "badge": "NEW"
+  },
+  {
+    "image": "images/result-1.png",
+    "company": "Coors Banquet",
+    "title": "$5.00 Off a Beer",
+    "location": "Campbell, CA",
+    "badge": ""
+  },
+  {
+    "image": "images/result-1.png",
+    "company": "Coors Banquet",
+    "title": "$5.00 Off a Beer",
+    "location": "Campbell, CA",
+    "badge": ""
+  },
+  {
+    "image": "images/result-1.png",
+    "company": "Coors Banquet",
+    "title": "$5.00 Off a Beer",
+    "location": "Campbell, CA",
+    "badge": ""
+  }
+]

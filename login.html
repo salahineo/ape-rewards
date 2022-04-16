@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="author" content="APE Rewards" />
+  <meta name="keywords" content="APE rewards, APE, rewards, earn rewards" />
+  <meta name="description" content="A unique way to earn rewards" />
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Title -->
+  <title>Log in | APE Rewards</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Start Log in Container -->
+  <section class="login text-center">
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <div class="logo mb-4">
+          <a href="/">
+            <img class="img-fluid" src="images/brand.png" alt="APE Rewards">
+          </a>
+        </div>
+        <h2>Log in to APE</h2>
+        <!-- Validation Alert -->
+        <div class="alert-container"></div>
+      </div>
+      <!-- Form -->
+      <form id="submit-form" action="#" method="POST" data-form="login">
+        <!-- Email -->
+        <div class="form-group text-left mb-4">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" placeholder="Enter email" id="email">
+        </div>
+        <!-- Password -->
+        <div class="form-group password text-left">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" placeholder="Enter password" id="password">
+        </div>
+        <!-- Forget Password -->
+        <a href="forgot_password.html">Forgot password?</a>
+        <!-- Submit Button -->
+        <input class="button-primary button-small" type="submit" value="Log in" id="submit">
+      </form>
+      <!-- New Member Link -->
+      <div class="new-member">
+        Don't have an account?
+        <a href="signup.html">Sign up.</a>
+      </div>
+      <!-- Other Links -->
+      <div class="other-links">
+        <span>
+          <a href="doc/APE%20Terms%20of%20Use.pdf" target="_blank">Terms</a>
+          &amp;
+          <a href="doc/Online%20Privacy%20Policy.pdf" target="_blank">Privacy</a>
+        </span>
+        <a href="mailto:support@aperewards.club">Support</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Log in Container -->
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="vendors/jwt-decode/build/jwt-decode.js"></script>
+  <script type="module" src="js/validate.js"></script>
+</body>
+</html>
